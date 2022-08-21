@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../../css/style.css" />
+    <link rel="stylesheet" href="../../css/task.css" />
+    <link rel="stylesheet" href="../../css/button.css" />
+    <link rel="stylesheet" href="../../css/task.create.css"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet" />
+    <script type="module" src="../scripts/task.create.ts"></script>
+    <title>Tarefas - eAgenda Web</title>
+  </head>
+  <body>
+    <nav class="nav-container">
+      <div class="nav-logo">
+        <h1>eAgenda <span>Web</span></h1>
+      </div>
+
+      <div class="nav-menu">
+        <a href="../../index.html" class="nav-item"><span class="material-icons-outlined">home</span> Início</a>
+        <a href="./task.html" class="nav-item nav-active-item"><span class="material-icons-outlined">edit_note</span> Tarefas</a>
+      </div>
+    </nav>
+
+    <main class="main-container">
+      <section class="task-content">
+        <div class="task-top">
+          <h1 id="title">Nova Tarefa</h1>
+          <h2 id="subtitle">Preencha os campos abaixo para cadastrar uma nova tarefa</h2>
+        </div>
+
+        <div class="task-form-wrapper">
+          <form class="task-create-form">
+
+            <div class="task-input-field">
+              <label for="description">Descrição</label>
+              <input type="text" id="description" placeholder="Ex: Limpar a casa..." maxlength="25" required>
+            </div>
+  
+            <div class="task-input-field">
+              <label for="priority">Prioridade</label>
+              <select id="priority">
+                <option value="0">Selecionar</option>
+                <option value="Baixa">Baixa</option>
+                <option value="Média">Média</option>
+                <option value="Alta">Alta</option>
+              </select>
+            </div>
+
+            <button type="reset" class="button save" id="btn-save">Concluir</button>
+          </form>
+        </div>
+
+      </section>
+    </main>
+
+    <footer class="footer-container">
+      <div class="footer-content">
+        <p>Desenvolvido por Alan Fernandes © 2022</p>
+      </div>
+    </footer>
+  </body>
+</html>

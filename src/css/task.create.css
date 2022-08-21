@@ -1,0 +1,78 @@
+.task-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  max-width: 750px;
+  width: 100%;
+
+  padding: 30px 0;
+
+  background-color: #1F2029;
+}
+
+.task-top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.task-top h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.task-top h2 {
+  font-size: 1.3rem;
+  text-align: center;
+  color: #B83280;
+}
+
+.task-form-wrapper {
+  width: 80%;
+}
+
+.task-create-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.task-input-field {
+  height: 50px;
+  width: 100%;
+
+  margin-bottom: 4rem;
+}
+
+.task-input-field label {
+  display: inline-block;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #EEEEF2;
+  margin-bottom: 0.5rem;
+}
+
+.task-input-field > select,
+.task-input-field > input {
+  height: 100%;
+  width: 100%;
+  padding: 0 10px;
+
+  font-size: 1rem;
+  font-weight: 600;
+
+  color: #EEEEF2;
+  background-color: #181B23;
+  border: 2px solid #181B23;
+  border-radius: 5px;
+}
+
+#description:focus,
+#priority:focus {
+  box-shadow: 0px 0px 3px 2px #B83280;
+  outline: none;
+  transition: .4s;
+}

@@ -1,0 +1,32 @@
+.main-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5%;
+}
+
+.ct-1 {
+  width: 30%;
+}
+
+.ct-1 h1 {
+  color: #EEEEF2;
+  font-size: 60px;
+  margin-bottom: 4rem;
+}
+
+.ct-1 h2 {
+  color: #B83280;
+  margin-bottom: 2rem;
+}
+
+.ct-1 h3 {
+  margin-top: 2rem;
+  color: #797D9A;
+  font-weight: 550;
+}
+
+.ct-2 img {
+  width: 700px;
+  height: 800px;
+}
