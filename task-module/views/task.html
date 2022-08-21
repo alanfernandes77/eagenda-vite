@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    
+    
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet" />
+    
+    <title>Tarefas - eAgenda Web</title>
+    <script type="module" crossorigin src="/eagenda-vite/assets/task.4c4b40b6.js"></script>
+    <link rel="modulepreload" crossorigin href="/eagenda-vite/assets/task.repository.local-storage.c35c584e.js">
+    <link rel="stylesheet" href="/eagenda-vite/assets/task.repository.e4fa6cf2.css">
+    <link rel="stylesheet" href="/eagenda-vite/assets/style.fb9032b8.css">
+  </head>
+  <body>
+    <nav class="nav-container">
+      <div class="nav-logo">
+        <h1>eAgenda <span>Web</span></h1>
+      </div>
+
+      <div class="nav-menu">
+        <a href="../../index.html" class="nav-item"><span class="material-icons-outlined">home</span> Início</a>
+        <a href="#" class="nav-item nav-active-item"><span class="material-icons-outlined">edit_note</span> Tarefas</a>
+      </div>
+    </nav>
+
+    <main class="main-container">      
+      <section class="task-content">
+        <div class="task-top">
+          <h1><span class="material-icons-outlined">edit_note</span> Tarefas</h1>
+          <a href="./task.create.html" class="button add" id="btn-add"><span class="material-icons-outlined">add</span> Adicionar</a>
+        </div>
+
+        <div class="task-table-wrapper">
+          <table class="task-table" id="task-table">
+            <thead class="task-table-head">
+              <tr>
+                <th>Id</th>
+                <th>Descrição</th>
+                <th>Prioridade</th>
+                <th>Data de Criação</th>
+              </tr>
+            </thead>
+  
+            <tbody class="task-table-body"></tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer-container">
+      <div class="footer-content">
+        <p>Desenvolvido por Alan Fernandes © 2022</p>
+      </div>
+    </footer>
+  </body>
+</html>
